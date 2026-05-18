@@ -1,14 +1,12 @@
 <html>
 <head>
 <title>My Website</title>
-
 <style>
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
 }
-
 .sidebar {
     width: 200px;
     background: black;
@@ -18,14 +16,12 @@ body {
     align-items: center;
     font-size: 20px;
 }
-
 .main {
     flex: 1;
     display: flex;
     gap: 20px;
     padding: 50px;
 }
-
 .card {
     width: 130px;
     height: 130px;
@@ -33,58 +29,45 @@ body {
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    
 }
-
 .card:hover {
     transform: scale(1.05);
 }
-
 .icon {
     font-size: 22px;
     margin-bottom: 10px;
 }
-
 .title {
     font-weight: bold;
 }
-
 .text {
     font-size: 12px;
     color: soft blue;
 }
 </style>
-
 </head>
-
 <body>
-
 <div class="sidebar">
      Website by CS25044
 </div>
 
 <div class="main">
-
     <div class="card">
         <div class="icon">🤠</div>
         <div class="title">Swag</div>
         <div class="text">This is demo text</div>
     </div>
-
     <div class="card">
         <div class="icon">💪</div>
         <div class="title">Muscle</div>
         <div class="text">This is second box</div>
     </div>
-
     <div class="card">
         <div class="icon">🏍</div>
         <div class="title">BMW</div>
         <div class="text">This is third box</div>
     </div>
-
 </div>
-
 </body>
 </html> 
 Practical-9
